@@ -4,6 +4,5 @@ function setup() {
 }
 
 function draw() {
-  // This code runs repeatedly in a loop (usually 60 times per second)
   background(220); 
 }
