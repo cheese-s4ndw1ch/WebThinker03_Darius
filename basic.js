@@ -9,4 +9,4 @@ function draw() {
   background(220); 
 }
 
-console.log ()
+console.log ("Hi")
