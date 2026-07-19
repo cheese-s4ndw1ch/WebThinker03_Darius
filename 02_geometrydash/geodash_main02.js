@@ -37,7 +37,7 @@ function setup() {
   obstacles = new Group();
   obstacles.collider = 'static'; 
   
-  player = new Sprite(150, groundY - 20, 40, 40);
+  player = new Sprite(50, groundY - 50, 50, 40);
   player.img = cubeImg;
   player.collider = 'dynamic';
   player.rotationLock = true; 
