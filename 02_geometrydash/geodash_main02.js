@@ -16,8 +16,8 @@ function preload() {
   cubeImg = loadImage('assets/cube.png');
   cube2Img = loadImage('assets/cube2.png');
   spikeImg = loadImage('assets/spike.png');
-  clearImg = loadImage('clear.png');
-  menuImg = loadImage('menu.png');
+  clearImg = loadImage('assets/clear.png');
+  menuImg = loadImage('aseets/menu.png');
   menuBgImg = loadImage('menubg.png');
   geoBgImg = loadImage('geobg.png');
   startGameImg = loadImage('startgame.png');
