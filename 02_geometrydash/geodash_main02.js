@@ -44,7 +44,9 @@ function setup() {
   player.visible = false;
 
   startCoords = [50, height - player.height, 50, 50]
-  player.x = startCoords[0]
+  player.x = startCoords[0];
+  player.y 
+
   
   let ground = new Sprite(width / 2, groundY + 10, width, 20);
   ground.collider = 'static';
