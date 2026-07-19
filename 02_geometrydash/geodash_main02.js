@@ -30,9 +30,9 @@ function preload() {
 }
 //setting up le game
 function setup() {
-  createCanvas(800, 400); 
+  createCanvas(700, 600); 
   
-  world.gravity.y = 20; 
+  world.gravity.y = 32; 
 
   obstacles = new Group();
   obstacles.collider = 'static'; 
