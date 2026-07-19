@@ -10,7 +10,7 @@ let gameStartSound, deathSound, bgMusic;
 let obstacles;
 //ground stuff
 let groundY = 320;
-
+//preloading assets yay
 function preload() {
   cubeImg = loadImage('cube.png');
   cube2Img = loadImage('cube2.png');
