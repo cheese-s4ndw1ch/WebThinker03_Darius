@@ -18,8 +18,8 @@ function preload() {
   spikeImg = loadImage('assets/spike.png');
   clearImg = loadImage('assets/clear.png');
   menuImg = loadImage('assets/menu.png');
-  menuBgImg = loadImage('assetsmenubg.png');
-  geoBgImg = loadImage('geobg.png');
+  menuBgImg = loadImage('assets/menubg.png');
+  geoBgImg = loadImage('assets/geobg.png');
   startGameImg = loadImage('startgame.png');
   //sounds
   
