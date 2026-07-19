@@ -6,8 +6,9 @@ let cubeImg, cube2Img, spikeImg, clearImg;
 let menuImg, menuBgImg, geoBgImg, startGameImg;
 //sounds
 let gameStartSound, deathSound, bgMusic;
-
+//world building :D
 let obstacles;
+//ground stuff
 let groundY = 320;
 
 function preload() {
