@@ -1,4 +1,4 @@
-JavaScript
+//playerbox
 let player;
 let gameState = "menu"; 
 
