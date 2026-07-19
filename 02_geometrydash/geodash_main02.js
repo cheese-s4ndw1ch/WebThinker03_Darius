@@ -45,7 +45,7 @@ function setup() {
 
   startCoords = [50, height - player.height, 50, 50]
   player.x = startCoords[0];
-  player.y 
+  player.y = startCoords[1];
 
   
   let ground = new Sprite(width / 2, groundY + 10, width, 20);
