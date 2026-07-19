@@ -4,7 +4,7 @@ let gameState = "menu";
 //image sprite
 let cubeImg, cube2Img, spikeImg, clearImg;
 let menuImg, menuBgImg, geoBgImg, startGameImg;
-
+//sounds
 let gameStartSound, deathSound, bgMusic;
 
 let obstacles;
