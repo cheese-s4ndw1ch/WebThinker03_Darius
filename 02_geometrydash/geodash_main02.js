@@ -13,7 +13,7 @@ let groundY = 320;
 //preloading assets yay
 function preload() {
     //images
-  cubeImg = loadImage('cube.png');
+  cubeImg = loadImage('assets/cube.png');
   cube2Img = loadImage('cube2.png');
   spikeImg = loadImage('spike.png');
   clearImg = loadImage('clear.png');
