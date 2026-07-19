@@ -24,7 +24,7 @@ function preload() {
   //sounds
   
   soundFormats('mp3');
-  gameStartSound = loadSound('game-start.mp3');
+  gameStartSound = loadSound('assest/game-start.mp3');
   deathSound = loadSound('geometry-dash-death-sound.mp3');
   bgMusic = loadSound('stereo-madness.mp3');
 }
