@@ -12,6 +12,7 @@ let obstacles;
 let groundY = 320;
 //preloading assets yay
 function preload() {
+    //images
   cubeImg = loadImage('cube.png');
   cube2Img = loadImage('cube2.png');
   spikeImg = loadImage('spike.png');
@@ -20,6 +21,7 @@ function preload() {
   menuBgImg = loadImage('menubg.png');
   geoBgImg = loadImage('geobg.png');
   startGameImg = loadImage('startgame.png');
+  //sounds
   
   soundFormats('mp3');
   gameStartSound = loadSound('game-start.mp3');
