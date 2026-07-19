@@ -42,6 +42,8 @@ function setup() {
   player.collider = 'dynamic';
   player.rotationLock = true; 
   player.visible = false;
+
+  startCoords = {}
   
   let ground = new Sprite(width / 2, groundY + 10, width, 20);
   ground.collider = 'static';
