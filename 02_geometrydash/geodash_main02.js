@@ -20,7 +20,7 @@ function preload() {
   menuImg = loadImage('assets/menu.png');
   menuBgImg = loadImage('assets/menubg.png');
   geoBgImg = loadImage('assets/geobg.png');
-  startGameImg = loadImage('startgame.png');
+  startGameImg = loadImage('assets/startgame.png');
   //sounds
   
   soundFormats('mp3');
