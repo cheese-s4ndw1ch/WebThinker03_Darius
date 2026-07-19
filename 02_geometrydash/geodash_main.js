@@ -1,7 +1,7 @@
 //playerbox
 let player;
 let gameState = "menu"; 
-
+//image sprite
 let cubeImg, cube2Img, spikeImg, clearImg;
 let menuImg, menuBgImg, geoBgImg, startGameImg;
 
