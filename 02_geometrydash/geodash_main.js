@@ -28,7 +28,7 @@ function preload() {
   deathSound = loadSound('geometry-dash-death-sound.mp3');
   bgMusic = loadSound('stereo-madness.mp3');
 }
-
+//setting up le game
 function setup() {
   createCanvas(800, 400); 
   
