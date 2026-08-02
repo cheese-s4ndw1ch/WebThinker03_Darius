@@ -28,8 +28,7 @@ function preload() {
 }
 //setting up le game
 function setup() {
-  createCanvas(1000, 1600); 
-  
+  createCanvas(800, 800)
   world.gravity.y = 32; 
 
   obstacles = new Group();
