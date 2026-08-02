@@ -71,7 +71,6 @@ function preload() {
     //SEGMENT 5
 
     startGameImg = loadImage("assets/startgame.png");
-
     endGameImg = loadImage("assets/clear!.png");
 
 }
