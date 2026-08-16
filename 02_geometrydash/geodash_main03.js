@@ -59,14 +59,6 @@ let passSound;
 
 let lost = false;
 
-function preload() {
-    // < . . . previous code . . . >
-
-    backgroundTrack = createAudio("assets/stereo-madness.mp3");
-    failSound = createAudio("assets/geometry-dash-death-sound.mp3");
-    passSound = createAudio("assets/game-start.mp3");
-}
-
 
 
 function preload() {
@@ -87,6 +79,11 @@ function preload() {
 
     startGameImg = loadImage("assets/startgame.png");
     endGameImg = loadImage("assets/clear.png");
+
+
+      backgroundTrack = createAudio("assets/stereo-madness.mp3");
+    failSound = createAudio("assets/geometry-dash-death-sound.mp3");
+    passSound = createAudio("assets/game-start.mp3");
 
 }
 
