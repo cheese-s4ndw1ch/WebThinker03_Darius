@@ -67,7 +67,7 @@ function preload() {
     passSound = createAudio("assets/game-start.mp3");
 }
 
-```
+
 
 function preload() {
 
