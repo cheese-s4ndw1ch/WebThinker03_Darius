@@ -53,6 +53,21 @@ let level = 1;
 let lastlevel = 2;
 
  
+let backgroundTrack;
+let failSound;
+let passSound;
+
+let lost = false;
+
+function preload() {
+    // < . . . previous code . . . >
+
+    backgroundTrack = createAudio("assets/stereo-madness.mp3");
+    failSound = createAudio("assets/geometry-dash-death-sound.mp3");
+    passSound = createAudio("assets/game-start.mp3");
+}
+
+```
 
 function preload() {
 
