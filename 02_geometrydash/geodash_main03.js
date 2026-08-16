@@ -351,7 +351,7 @@ function resetGame() {
 
     startGame = false;
 
-    
+
 
     // Reset the player's rotation.
 
@@ -389,7 +389,7 @@ function triggerGameOver() {
 
     if (!gameOver) {
 
-     
+        passSound.play();
       
         gameOver = true;
 
