@@ -390,7 +390,7 @@ function triggerGameOver() {
     if (!gameOver) {
 
      
-
+      
         gameOver = true;
 
         box.vel.x = 0;
