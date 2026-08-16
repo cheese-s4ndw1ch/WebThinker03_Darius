@@ -351,7 +351,7 @@ function resetGame() {
 
     startGame = false;
 
-
+    
 
     // Reset the player's rotation.
 
