@@ -335,21 +335,11 @@ function draw() {
 
 function resetGame() {
 
-    //   if (lost) {
-
-    //     backgroundTrack.stop();
-
-    //     failSound.play();
-
-    //   }
-
-    //   particles.removeAll();
+ 
 
     startGame = false;
 
-    //   box.vel.y = 0;
 
-    //   box.vel.x = 0;
 
     // Reset the player's rotation.
 
@@ -383,11 +373,11 @@ function resetGame() {
 
 function triggerGameOver() {
 
-    //backgroundTrack.stop();
+    
 
     if (!gameOver) {
 
-        //passSound.play();
+     
 
         gameOver = true;
 
@@ -437,56 +427,15 @@ function loadLevel() {
 
         new Tiles(tileMap1, 0, 0, 50, 50);
 
-        //mapUsed = tileMap1;
+       
 
     } else if (level === 2) {
 
         new Tiles(tileMap2, 0, 0, 50, 50);
 
-        //mapUsed = tileMap2;
+      
 
     }
 
 }
 
-// //SEGMENT 5
-
-//     if (!startGame && (mouse.presses() || kb.presses("space"))) {
-
-//         // if (menuImg.mouse.hovering() && menuImg.visible === true) {
-
-//         // menuOpen = true;
-
-//         // openMenu();
-
-//         // } else if (menuOpen === false) {
-
-//         startGame = true;
-
-//         startSprite.visible = false;
-
-//         //menuImg.visible = false;
-
-//         //}
-
-//         //choiceSelect();
-
-//     ///* Make the start image flash. It is visible for 30 frames and hidden for 30 frames.
-
-//     // At 60 frames per second, this creates a flashing effect. */
-
-//     } else if (!startGame) {
-
-//         if (frameCount % 60 < 30) {
-
-//         startSprite.visible = true;
-
-//         } else {
-
-//         startSprite.visible = false;
-
-//         }
-
-//         //menuImg.visible = true;
-
-//     }
