@@ -350,6 +350,7 @@ function resetGame() {
  
 
     startGame = false;
+    failSound.play();
 
 
 
