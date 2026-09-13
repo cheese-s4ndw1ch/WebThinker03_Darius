@@ -97,7 +97,7 @@ function keyPressed() {
     gameOver = false;
     score = 0;
 
-    // Reset balloon position and physics
+   
     balloon.x = width / 2;
     balloon.y = 100;
     balloon.vel.x = 0;
