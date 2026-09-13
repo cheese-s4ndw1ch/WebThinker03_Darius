@@ -38,31 +38,31 @@ function setup() {
   balloon.x = width / 2;
   balloon.y = 100;
 
-  // Create fingertip tracking sprite
+ 
   fingerTip = new Sprite();
   fingerTip.diameter = 30;
   fingerTip.collider = 'kinematic';
   fingerTip.color = 'yellow';
 }
 
-// Callback function when handPose detects hands
+
 function gotHands(results) {
   hands = results;
 }
 
 function draw() {
-  // Draw webcam background (mirrored horizontally for intuitive interaction)
+ 
   push();
   translate(width, 0);
   scale(-1, 1);
   image(video, 0, 0, width, height);
   pop();
 
-  // Update fingerTip sprite position based on Index Fingertip (Landmark index 8)
+  
   if (hands.length > 0) {
     let indexTipLandmark = hands[0].index_finger_tip;
     
-    // Mirror the tracked X position to match mirrored video display
+   
     fingerTip.x = width - indexTipLandmark.x;
     fingerTip.y = indexTipLandmark.y;
   } else {
