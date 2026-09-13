@@ -15,22 +15,22 @@ function preload() {
   
   bounceSound = createAudio('assets/LowBoing.mp3');
   
-  // Load the ml5 handpose machine learning model
+
   handPose = ml5.handPose();
 }
 
 function setup() {
   createCanvas(640, 480);
 
-  // Initialize webcam capture and hide default video element
+  
   video = createCapture(VIDEO);
   video.size(640, 480);
   video.hide();
 
-  // Start continuous hand tracking on webcam feed
+
   handPose.detectStart(video, gotHands);
 
-  // Create balloon sprite
+ 
   balloon = new Sprite();
   balloon.diameter = 60;
   balloon.collider = 'none';
