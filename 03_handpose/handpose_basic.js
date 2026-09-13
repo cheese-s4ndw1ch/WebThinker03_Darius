@@ -66,7 +66,7 @@ function draw() {
     fingerTip.x = width - indexTipLandmark.x;
     fingerTip.y = indexTipLandmark.y;
   } else {
-    // Hide tracking sprite off-screen if no hand detected
+    
     fingerTip.x = -100;
     fingerTip.y = -100;
   }
@@ -77,7 +77,7 @@ function draw() {
     textAlign(CENTER);
     text("Press SPACE to Start", width / 2, height / 2);
   } else {
-    // Check collision between balloon and fingertip
+    
     if (balloon.collides(fingerTip)) {
       bounceSound.play();
     }
