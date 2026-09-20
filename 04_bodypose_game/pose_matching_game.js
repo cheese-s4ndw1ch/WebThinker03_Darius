@@ -30,6 +30,7 @@ let bodyPose
 // ====================================================
 
 function preload(){
+    bodyPose= m15
     
 }
 
