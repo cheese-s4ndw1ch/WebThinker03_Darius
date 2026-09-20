@@ -78,9 +78,9 @@ function draw() {
     text("Press SPACE to Start", width / 2, height / 2);
   } else {
     
-    if (balloon.collides(fingerTip)) {
+  if (balloon.collides(fingerTip)) {
       bounceSound.play();
-    }
+  }
 
     if (gameOver) {
       fill(0);
